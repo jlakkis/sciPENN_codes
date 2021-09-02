@@ -23,7 +23,7 @@ Clone this repository to your local machine using [the standard procedure](https
 
 ## Download the data from Box
 
-Download the [data from Box]https://upenn.box.com/s/1p1f1gblge3rqgk97ztr4daagt4fsue5), and place them into the [currently empty data folder](https://github.com/jlakkis/sciPENN_codes/tree/master/Data).
+Download the [data from Box](https://upenn.box.com/s/1p1f1gblge3rqgk97ztr4daagt4fsue5), and place them into the [currently empty data folder](https://github.com/jlakkis/sciPENN_codes/tree/master/Data).
 
 ## Install all necessary packages
 
