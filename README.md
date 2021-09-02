@@ -93,9 +93,9 @@ It is recommended that the user first run the sciPENN notebooks. Simply, open ea
 5. [PBMC_to_PBMC sciPENN.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_PBMC%20sciPENN.ipynb)
 6. [Covid_to_Covid sciPENN_Integrated.ipynb.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Covid_to_Covid%20sciPENN_Integrated.ipynb)
 
-### Run totalVI R Scripts
+### Run totalVI Notebooks
 
-Next, it is recommended that the user run all scripts to evaluate totalVI. For each file in the list below, the user should open R (or Rstudio), and execute the script. Simply, open each of the following notebooks in jupyter. Make sure to set the active conda kernel in jupyter to "scipenn_env" and then run all cells. Repeat this for every notebook listed below.
+Next, it is recommended that the user run all scripts to evaluate totalVI. Simply, open each of the following notebooks in jupyter. Make sure to set the active conda kernel in jupyter to "scipenn_env" and then run all cells. Repeat this for every notebook listed below.
 
 1. [PBMC_to_Malt TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_Malt%20TotalVI.ipynb)
 2. [Monocyte TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Monocyte%20TotalVI.ipynb)
