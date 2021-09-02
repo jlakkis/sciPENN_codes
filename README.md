@@ -1,4 +1,4 @@
-# CarDEC Evaluations
+# sciPENN Evaluations
 
 sciPENN (**s**ingle **c**ell **i**mputation **P**rediction **E**mbedding **N**eural **N**etwork) is a joint deep learning computational tool that is useful for analyses of single-cell RNA-seq data. The sciPENN method's repository can be found [here](https://github.com/jlakkis/sciPENN).
 
