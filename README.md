@@ -23,7 +23,7 @@ Clone this repository to your local machine using [the standard procedure](https
 
 ## Download the data from Box
 
-Download the [data from Box](https://upenn.box.com/s/xlwg9e0vtj8a0xq6l87f2knwquclpjaw), and place them into the [currently empty data folder](https://github.com/jlakkis/CarDEC_Codes/tree/main/Data).
+Download the [data from Box](https://upenn.box.com/s/xlwg9e0vtj8a0xq6l87f2knwquclpjaw), and place them into the [currently empty data folder](https://github.com/jlakkis/sciPENN_codes/tree/master/Data).
 
 ## Install all necessary packages
 
@@ -35,7 +35,7 @@ First, install [Anaconda](https://www.anaconda.com/products/individual) if you d
 
 ### Set up conda environments
 
-Next, use [scipenn_env.yml](https://github.com/jlakkis/CarDEC_Codes/blob/main/cardec.yml) to set up the "scipenn_env" environment. This environment is needed for all python notebooks. Also, you will need to run an extra command in order to make this conda environment accessible from jupyter.
+Next, use [scipenn_env.yml](https://github.com/jlakkis/sciPENN_codes/blob/master/scipenn_env.yml) to set up the "scipenn_env" environment. This environment is needed for all python notebooks. Also, you will need to run an extra command in order to make this conda environment accessible from jupyter.
 
 To do this, simply cd in the cloned "sciPENN_codes" repository. Once in this directory, run the following two commands.
 
@@ -86,44 +86,44 @@ $ jupyter notebook
 
 It is recommended that the user first run the sciPENN notebooks. Simply, open each of the following notebooks in jupyter. Make sure to set the active conda kernel in jupyter to "scipenn_env" and then run all cells. Repeat this for every notebook listed below.
 
-1. [pbmc_to_malt sciPENN.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Macaque.ipynb)
-2. [Monocyte sciPENN.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Cortex.ipynb)
-3. [PBMC_to_H1N1 sciPENN.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Retina.ipynb)
-4. [PBMC_to_H1N1 sciPENN - Runtime.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20PBMC.ipynb)
-5. [PBMC_to_PBMC sciPENN.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Pancreas.ipynb)
-6. [Covid_to_Covid sciPENN_Integrated.ipynb.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Liver%20Runtime.ipynb)
+1. [pbmc_to_malt sciPENN.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/pbmc_to_malt%20sciPENN.ipynb)
+2. [Monocyte sciPENN.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Monocyte%20sciPENN.ipynb)
+3. [PBMC_to_H1N1 sciPENN.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20sciPENN.ipynb)
+4. [PBMC_to_H1N1 sciPENN - Runtime.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20sciPENN%20-%20Runtime.ipynb)
+5. [PBMC_to_PBMC sciPENN.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_PBMC%20sciPENN.ipynb)
+6. [Covid_to_Covid sciPENN_Integrated.ipynb.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Covid_to_Covid%20sciPENN_Integrated.ipynb)
 
 ### Run totalVI R Scripts
 
 Next, it is recommended that the user run all scripts to evaluate totalVI. For each file in the list below, the user should open R (or Rstudio), and execute the script. Simply, open each of the following notebooks in jupyter. Make sure to set the active conda kernel in jupyter to "scipenn_env" and then run all cells. Repeat this for every notebook listed below.
 
-1. [PBMC_to_Malt TotalVI.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/Competing%20Methods%20Macaque.ipynb)
-2. [Monocyte TotalVI.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/Competing%20Methods%20Mouse%20Cortex.ipynb)
-3. [PBMC_to_H1N1 TotalVI.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_Liver_Runtime.R)
-4. [PBMC_to_H1N1 TotalVI - Runtime.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_PBMC.R)
-5. [PBMC_to_H1N1 TotalVI_Quantiles.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_PBMC_HVG.R)
-6. [PBMC_to_PBMC TotalVI.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_Pancreas.R)
-7. [Covid_to_Covid TotalVI_Integrated.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_Pancreas_HVG.R)
+1. [PBMC_to_Malt TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_Malt%20TotalVI.ipynb)
+2. [Monocyte TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Monocyte%20TotalVI.ipynb)
+3. [PBMC_to_H1N1 TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20TotalVI.ipynb)
+4. [PBMC_to_H1N1 TotalVI - Runtime.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20TotalVI%20-%20Runtime.ipynb)
+5. [PBMC_to_H1N1 TotalVI_Quantiles.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20TotalVI_Quantiles.ipynb)
+6. [PBMC_to_PBMC TotalVI.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_PBMC%20TotalVI.ipynb)
+7. [Covid_to_Covid TotalVI_Integrated.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Covid_to_Covid%20TotalVI_Integrated.ipynb)
 
 
 ### Run Seurat 4 Notebooks
 
 Lastly, it is recommended that the user run the Seurat 4 notebooks. Simply, open each of the following notebooks in jupyter. Make sure to set the active conda kernel in jupyter to "r40seurat40" and then run all cells. Repeat this for every notebook listed below.
 
-1. [PBMC_to_Malt seurat4.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Macaque.ipynb)
-2. [Monocyte seurat4.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Cortex.ipynb)
-3. [PBMC_to_H1N1 seurat4.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Retina.ipynb)
-4. [PBMC_to_H1N1 seurat4 runtime.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20PBMC.ipynb)
-5. [PBMC_to_PBMC seurat4.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Pancreas.ipynb)
+1. [PBMC_to_Malt seurat4.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_Malt%20seurat4.ipynb)
+2. [Monocyte seurat4.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Monocyte%20seurat4.ipynb)
+3. [PBMC_to_H1N1 seurat4.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20seurat4.ipynb)
+4. [PBMC_to_H1N1 seurat4 runtime.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_H1N1%20seurat4%20runtime.ipynb)
+5. [PBMC_to_PBMC seurat4.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_PBMC%20seurat4.ipynb)
 
 
 ## Run notebooks to generate all figures
 
 In this last step, the user runs notebooks which use the saved results of previous notebooks to generate final figures. The notebooks generate results for each dataset/analysis one at a time. Make sure to set the active conda kernel in jupyter to "scipenn_env"
 
-1. [PBMC_to_Malt Figure.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Macaque.ipynb)
-2. [Monocyte Figure.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Cortex.ipynb)
-3. [PBMC to H1N1 Figure.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Mouse%20Retina.ipynb)
-4. [PBMC to PBMC Fig.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20PBMC.ipynb)
-5. [Covid_to_Covid Integration Figure.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20CarDEC/CarDEC%20Pancreas.ipynb)
-6. [runtime code.ipynb](https://github.com/jlakkis/CarDEC_Codes/blob/main/Evaluations%20of%20Competing%20Methods/MNN_Pancreas.R)
+1. [PBMC_to_Malt Figure.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC_to_Malt%20Figure.ipynb)
+2. [Monocyte Figure.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Monocyte%20Figure.ipynb)
+3. [PBMC to H1N1 Figure.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC%20to%20H1N1%20Figure.ipynb)
+4. [PBMC to PBMC Fig.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/PBMC%20to%20PBMC%20Fig.ipynb)
+5. [Covid_to_Covid Integration Figure.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/Covid_to_Covid%20Integration%20Figure.ipynb)
+6. [runtime code.ipynb](https://github.com/jlakkis/sciPENN_codes/blob/master/Experiments/runtime%20code.ipynb)
